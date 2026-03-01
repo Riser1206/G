@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="13"
+        android:textColor="#333"
+        android:background="#ccc"
+        android:id="@+id/textView" 
+    android:editable="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"
+        android:onClick="onCreate"
+        android:text="Create" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#333"
+        android:background="#ccc"
+        android:text="playerId" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"
+        android:text="player12345" 
+        android:id="@+id/playerId"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#333"
+        android:background="#ccc"
+        android:text="lastLoginTime" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"
+        android:text="2026-03-01T00:00:00Z" 
+        android:id="@+id/lastLoginTime"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#333"
+        android:background="#ccc"
+        android:text="now" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"
+        android:text="2026-03-01T01:00:00Z" 
+        android:id="@+id/now"/>
+
+</LinearLayout>
